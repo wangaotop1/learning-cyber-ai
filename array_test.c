@@ -4,11 +4,11 @@ int main(void)
 {
     int scores[5] = {88, 92, 75, 96, 80};
 
-    printf("第一个成绩是： %d\n", scores[0]);
+    printf("第一个成绩是: %d\n", scores[0]);
 
     for (int i = 0; i < 5; i++)
     {
-        printf("第%d个成绩： %d\n", i + 1, scores[i]);
+        printf("第%d个成绩: %d\n", i + 1, scores[i]);
     }
 
     return 0;

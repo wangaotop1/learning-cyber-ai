@@ -14,7 +14,7 @@ while True:
         elif guess > secret_number:
             print("太大了，再试一次！")
         else:
-            print(f"🎉 恭喜你，猜对了！就是 {secret_number}！")
+            print(f"🎉 恭喜你，猜对了！就是 {secret_number}!")
             print(f"你一共猜了 {guess_count} 次。")
             break # 猜对之后跳出循环，结束游戏
     except ValueError:
